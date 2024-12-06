@@ -1,9 +1,10 @@
 import React from "react";
+import Hero from "../Components/Hero";
 
 const HeroSectionPage = () => {
   return (
     <div>
-      <h1>Does Your Broker Offer You All This?</h1>
+      <Hero/>
     </div>
   );
 };

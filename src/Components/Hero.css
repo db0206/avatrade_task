@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  @media (min-width: 769px) {
+    .hero {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .cta-button {
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
